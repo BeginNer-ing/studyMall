@@ -1,4 +1,4 @@
-package studyMall.mbg;
+package mbg;
 
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.generator.api.MyBatisGenerator;
