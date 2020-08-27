@@ -105,6 +105,29 @@
 				<artifactId>jasypt-spring-boot-starter</artifactId>
 				<version>${ulisesbocchio.version}</version>
 			</dependency>
+			<!--Hutool Java工具包-->
+			<dependency>
+				<groupId>cn.hutool</groupId>
+				<artifactId>hutool-all</artifactId>
+				<version>${hutool.version}</version>
+			</dependency>
+			<!--JWT(Json Web Token)登录支持-->
+			<dependency>
+				<groupId>io.jsonwebtoken</groupId>
+				<artifactId>jjwt</artifactId>
+				<version>${jjwt.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-security</artifactId>
+				<version>${security.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-simple</artifactId>
+				<version>${slf4j.simple.version}</version>
+				<scope>test</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<properties>
@@ -122,6 +145,10 @@
 		<devtools.version>2.3.1.RELEASE</devtools.version>
 		<web.version>2.3.1.RELEASE</web.version>
 		<slf4j.version>1.7.30</slf4j.version>
+		<hutool.version>4.5.7</hutool.version>
+		<jjwt.version>0.9.0</jjwt.version>
+		<security.version>2.3.1.RELEASE</security.version>
+		<slf4j.simple.version>1.7.30</slf4j.simple.version>
 	</properties>
 	<build>
 		<plugins>

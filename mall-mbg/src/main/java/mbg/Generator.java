@@ -9,8 +9,7 @@ import org.mybatis.generator.internal.DefaultShellCallback;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-
-@Slf4j
+//@Slf4j
 public class Generator {
     public static void main(String[] args) throws Exception {
         //MBG 执行过程中的警告信息
@@ -27,9 +26,9 @@ public class Generator {
         //执行生成代码
         myBatisGenerator.generate(null);
         //输出警告信息
-        for (String warning : warnings) {
+        /*for (String warning : warnings) {
             log.info(warning);
-        }
+        }*/
     }
 
 }
