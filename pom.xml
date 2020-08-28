@@ -6,6 +6,7 @@
 	<modules>
 		<module>microservice-01</module>
 		<module>mall-mbg</module>
+		<module>Spring-task</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -16,7 +17,7 @@
 	<groupId>org.study</groupId>
 	<artifactId>studyMall</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>studyMall</name>
+	<name>studymall</name>
 	<description>mall project for Spring Boot</description>
 	<dependencyManagement>
 		<dependencies>
@@ -154,7 +155,7 @@
 		<jjwt.version>0.9.0</jjwt.version>
 		<security.version>2.3.1.RELEASE</security.version>
 		<slf4j.simple.version>1.7.30</slf4j.simple.version>
-		<hibernate.validator.version>6.0.18.Final</hibernate.validator.version>
+		<hibernate.validator.version>6.0.17.Final</hibernate.validator.version>
 	</properties>
 	<build>
 		<plugins>
